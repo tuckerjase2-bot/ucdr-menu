@@ -8,7 +8,6 @@ assert(chunk, err)
 local library = chunk()
 local window = library:CreateWindow("UCDR manu")
 library.OpenCloseKeybind = Enum.KeyCode.RightControl
-
 local kromertab = window:CreateTab("Kromer")
 local generaltab = window:CreateTab("General")
 local cred = window:CreateTab("Credits and config")
@@ -18,6 +17,12 @@ local TextChatService = game:GetService("TextChatService")
 local UIS = game:GetService("UserInputService")
 local VIM = game:GetService("VirtualInputManager")
 local lp = Players.LocalPlayer
+local pshop = lp.PlayerGui.Main.MainFrame.CharacterSpecificUI.Spamton_PlaceableShopUI
+
+pshop.AnchorPoint = Vector2.new(0, 1)
+pshop.Size = UDim2.new(0.5, 0, 0.5, 0)
+pshop.Position = UDim2.new(0, 0, 0.7, 0)
+
 
 local desiredprice = 1
 local septillion = -100000000000000000000
@@ -334,3 +339,5 @@ lp.CharacterAdded:Connect(function()
 		hookDealsFrame()
 	end
 end)
+
+
