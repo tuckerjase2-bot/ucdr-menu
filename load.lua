@@ -62,12 +62,12 @@ local SHRINE_SEQUENCES = {
 		air = true,
 		steps = word("kai"),
 	},
-	[Enum.KeyCode.Three] = {
+	[Enum.KeyCode.Five] = {
 		name = "Shrine 5",
 		air = false,
 		steps = word("cleave"),
 	},
-	[Enum.KeyCode.Four] = {
+	[Enum.KeyCode.Six] = {
 		name = "Shrine 6",
 		air = false,
 		steps = word("dismantle"),
