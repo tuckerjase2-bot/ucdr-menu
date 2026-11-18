@@ -17,17 +17,6 @@ local TextChatService = game:GetService("TextChatService")
 local UIS = game:GetService("UserInputService")
 local VIM = game:GetService("VirtualInputManager")
 local lp = Players.LocalPlayer
-local pshop = game:GetService("Players").LocalPlayer.PlayerGui.Main.MainFrame.CharacterSpecificUI.Spamton_PlacableShopUI
-local cshop = pshop.MainOptionsIL.ConfirmPurchase
-
-pshop.AnchorPoint = Vector2.new(0, 1)
-pshop.Size = UDim2.new(0.5, 0, 0.5, 0)
-pshop.Position = UDim2.new(0, 0, 0.7, 0)
-cshop.ConfirmButton.Position = UDim2.new(0, 0, 0.45, 0)
-cshop.BackButton.Position = UDim2.new(0, 0, 0.6, 0)
-cshop.ConfirmButton.Size = UDim2.new(0.5, 0, 0.2, 0)
-cshop.BackButton.Size = UDim2.new(0.5, 0, 0.2, 0)
-
 
 local desiredprice = 1
 local septillion = -100000000000000000000
