@@ -17,7 +17,7 @@ local TextChatService = game:GetService("TextChatService")
 local UIS = game:GetService("UserInputService")
 local VIM = game:GetService("VirtualInputManager")
 local lp = Players.LocalPlayer
-local pshop = lp.PlayerGui.Main.MainFrame.CharacterSpecificUI.Spamton_PlaceableShopUI
+local pshop = lp.PlayerGui.Main.MainFrame.CharacterSpecificUI.Spamton_PlaceableShopUi
 local cshop = pshop.MainOptionsIL.ConfirmPurchase
 
 pshop.AnchorPoint = Vector2.new(0, 1)
